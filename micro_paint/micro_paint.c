@@ -6,7 +6,7 @@
 /*   By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/08 12:51:17 by aldubar           #+#    #+#             */
-/*   Updated: 2021/09/10 23:24:56 by aldubar          ###   ########.fr       */
+/*   Updated: 2021/09/13 02:02:11 by aldubar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ typedef enum	e_error
 	ARGUMENT,
 	FILE_CORRUPTED,
 	ALLOC
-}				e_error;
+}				t_error;
 
 typedef struct	s_data
 {
