@@ -6,7 +6,7 @@
 /*   By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/08 12:51:17 by aldubar           #+#    #+#             */
-/*   Updated: 2021/09/13 02:02:11 by aldubar          ###   ########.fr       */
+/*   Updated: 2021/09/15 01:41:19 by aldubar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef enum	e_error
+enum	e_error
 {
 	ARGUMENT,
 	FILE_CORRUPTED,
 	ALLOC
-}				t_error;
+};
 
 typedef struct	s_data
 {

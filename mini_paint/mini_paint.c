@@ -6,7 +6,7 @@
 /*   By: aldubar <aldubar@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/10 09:31:08 by aldubar           #+#    #+#             */
-/*   Updated: 2021/09/13 02:02:38 by aldubar          ###   ########.fr       */
+/*   Updated: 2021/09/15 01:41:10 by aldubar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,12 @@ typedef struct	s_circle
 	char	c;
 }				t_circle;
 
-typedef enum	e_error
+enum	e_error
 {
 	ARGUMENT,
 	FILE_CORRUPTED,
 	ALLOC
-}				t_error;
+};
 
 int		error(enum e_error err, FILE *file, char *zone)
 {
